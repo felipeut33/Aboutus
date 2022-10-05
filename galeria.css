@@ -1,0 +1,40 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.galeria-item{
+    width: 25%;
+    padding: 2em;
+    padding-left: 2em;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+}
+.galeria-item:hover{
+    width: 27%;
+
+}
+
+.insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 2em;
+}
+.insta-item{
+    text-decoration: none;
+    font-size: 50px;
+    transition: 1s;
+    color: var(--preto);
+
+}
+.insta-titulo{
+    font-size: 75px;
+    color: var(--preto);
+}
+.insta-item:hover{
+    font-size: 60px;
+}
